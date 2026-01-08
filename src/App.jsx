@@ -3,7 +3,10 @@ import AgendaSemanal from "../components/AgendaSemanal";
 import Contacto from "../components/Contacto";
 import Noticias from "../components/Noticias";
 import Fju from "../components/Fju"
+import Versiculo from "../components/Versiculo";
 import Footer from "../components/Footer";
+
+
 
 function App() {
   
@@ -24,6 +27,9 @@ function App() {
       <p className="bg-yellow-300">Fondo amarillo</p>
     </div>
     <Navbar/>
+   <div className="flex items-center justify-center min-h-screen bg-purple-900">
+      <Versiculo />
+    </div>
     <AgendaSemanal/>
     <Contacto/>
     <Noticias/>
