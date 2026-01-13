@@ -12,7 +12,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="fixed top-0 left-0 bg-[#002649] w-full bg-opacity-90 backdrop-blur-md z-50">
+    <nav className="fixed top-0 left-0 bg-[#000000] md:bg-[#002649] w-full bg-opacity-90 backdrop-blur-md z-50">
   <div className="flex items-center sm:px-12 sm:py-6 px-4 py-3">
     
     {/* Botón hamburguesa (mobile izquierda) */}
