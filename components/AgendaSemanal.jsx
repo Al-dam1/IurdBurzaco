@@ -16,22 +16,46 @@ const AgendaSemanal = () => {
   ];
 
   return (
-    <div className="relative w-full p-x-10 p-y-10">
-      <h2 className="flex font-extrabold gap-5  text-black">Agenda <b className="text-shadow-blue-950">Semanal</b></h2>
-      <div className=" ">
-        <button className="absolute justify-center items-center left-0 top-1.5 translate-y-1.5 bg-purple-700 text-white p-2">&#10094;</button>
-        <ul className="flex overflow-x-auto scroll-snap-x scroll-snap-mandatory space-x-4 p-4">
-          {agenda.map((item, index) => (
-            <li key={index} className="">
-             <img  className="rounded-full" src={item.imagen} alt={item.title} style={{ marginRight: "8px" }}/>
-              <strong className="flex justify-center items-center text-center">{item.dia}:</strong> {item.actividad}
-            </li>
-          ))}
-        </ul>
-        
-        <button className="absolute right-0 top-1.5 translate-y-1.5 bg-purple-700 text-white p-2 ">&#10095;</button>
-      </div>
-    </div>
+   <div className="relative w-full px-4 py-6">
+  <h2 className="flex font-extrabold gap-3 text-black">
+    Agenda <b className="text-[#002649]">Semanal</b>
+  </h2>
+
+  <div className="relative flex justify-center items-center">
+    {/* Botón izquierda */}
+    <button className="absolute left-0 top-1/2 -translate-y-1/2 bg-purple-700 text-white p-2 rounded">
+      &#10094;
+    </button>
+
+    {/* Lista scrollable */}
+    <ul className="flex overflow-x-auto snap-x snap-mandatory space-x-4 p-4 scroll-smooth">
+      {agenda.map((item, index) => (
+        <li
+          key={index}
+          className="snap-center flex-shrink-0 w-full md:w-1/3 bg-white shadow-md rounded-lg p-4"
+        >
+          <img
+            className="w-11/12 h-auto object-cover rounded-full mb-3"
+            src={item.imagen}
+            alt={item.title}
+          />
+          <strong className="block text-center text-iurdBlue mb-2">
+            {item.dia}
+          </strong>
+          <p className="text-center text-sm text-iurdTextDark">
+            {item.actividad}
+          </p>
+        </li>
+      ))}
+    </ul>
+
+    {/* Botón derecha */}
+    <button className="absolute right-0 top-1/2 -translate-y-1/2 bg-purple-700 text-white p-2 rounded">
+      &#10095;
+    </button>
+  </div>
+</div>
+
   );
 };
 
