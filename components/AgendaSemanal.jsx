@@ -22,7 +22,7 @@ const AgendaSemanal = () => {
   </h2>
 
   <div className="relative flex justify-center items-center">
-    {/* Botón izquierda */}
+    
     <button className="absolute left-0 top-1/2 -translate-y-1/2 bg-purple-700 text-white p-2 rounded">
       &#10094;
     </button>

@@ -5,7 +5,7 @@ const Noticias = () => {
     <>
       <div>
         <h2 className="text-  text-green-950">Noticias / Eventos destacados</h2>
-        <h2>Ejemplo: “Navidad solidaria”, “Vigilia de Año Nuevo”.</h2>
+        <h2>Ejemplo: “Navidad solidaria”, “Vigilia de Año Nuevo y mas¿?”.</h2>
       </div>
       <div className="grid sm:grid-cols-2 gap-5 justify-items-center ">
         <div className="p-4 text-center  ">
