@@ -20,7 +20,7 @@ const Footer = () => {
   return (
     <>
     
-    <div className="hidden md:block bg-gray-600  text-white font-extralight">
+    <div className=" md:block bg-gray-600 p-6 text-center text-white font-extralight ">
        
        <h3 className='flex justify-center items-center p-3'>Medios de Comunicacion</h3>
       <ul className="flex justify-center gap-x-2 space-x-4" >

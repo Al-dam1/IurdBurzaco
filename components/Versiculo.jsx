@@ -1,7 +1,7 @@
 import { TypeAnimation } from 'react-type-animation' 
 const Versiculo = () => {
   return (
-    <div className='flex items-center justify-center min-h-screen bg-[#002649] px-4 text-center'>
+    <div className='flex items-center justify-center min-h-screen text-[#000000] px-4 text-center'>
     <TypeAnimation
       sequence={[
         'Clama a mí, y yo te responderé... Jeremias 33:3',
@@ -13,7 +13,7 @@ const Versiculo = () => {
       ]}
       wrapper="span"
       speed={50}
-      style={{ fontSize: '2em', display: 'inline-block' }}
+      style={{ fontSize: '2.5rem', display: 'inline-block' }}
       repeat={Infinity}
     />
     </div>

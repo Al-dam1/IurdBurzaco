@@ -1,5 +1,6 @@
 /* @import 'bootsrap-icons/font/bootsrap-icons.css'; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap');
 @import "tailwindcss";
-body{
-    background-color: purple; 
-}
+body{ font-family: 'Open Sans', Arial, Helvetica, sans-serif; background-color: white;}
+h1, h2, h3, nav, button { font-family: 'Roboto', Arial, Helvetica, sans-serif; }
+footer, p{font-family: 'Open Sans', Arial, Helvetica, sans-serif;}

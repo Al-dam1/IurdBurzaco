@@ -16,7 +16,7 @@ const Navbar = () => {
   <div className="flex items-center sm:px-12 sm:py-6 px-4 py-3">
     
     {/* Botón hamburguesa (mobile izquierda) */}
-    <button onClick={toggleMenu} className="md:hidden bg-[#c4483e] text-white hover:bg-[#ffffff] hover:text-[#c4483e] order-1 p-2 rounded">
+    <button onClick={toggleMenu} className="md:hidden  text-white  hover:bg-[#c4483e] order-1 p-2 rounded">
       <svg
         className="w-6 h-6"
         xmlns="http://www.w3.org/2000/svg"
