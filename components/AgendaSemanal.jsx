@@ -17,7 +17,7 @@ const AgendaSemanal = () => {
 
   return (
    <div className="relative w-full px-4 py-6">
-  <h2 className="flex font-extrabold gap-3 text-black">
+  <h2 className="flex font-extrabold gap-3 text-3xl text-black">
     Agenda <b className="text-[#002649]">Semanal</b>
   </h2>
 

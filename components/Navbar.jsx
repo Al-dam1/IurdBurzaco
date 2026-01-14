@@ -16,20 +16,17 @@ const Navbar = () => {
   <div className="flex items-center sm:px-12 sm:py-6 px-4 py-3">
     
     {/* Botón hamburguesa (mobile izquierda) */}
-    <button onClick={toggleMenu} className="md:hidden  text-white  hover:bg-[#c4483e] order-1 p-2 rounded">
-      <svg
-        className="w-6 h-6"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <path d="M4 6L20 6" />
-        <path d="M4 12L20 12" />
-        <path d="M4 18L20 18" />
-      </svg>
+    <button onClick={toggleMenu} className="md:hidden  text-white  hover:bg-[#c4483e] active:text-red-500 order-1 p-2 rounded">
+   <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+ 
+  <rect x="2" y="8" width="36" height="3" fill="white" />
+  
+  <rect x="2" y="18" width="32" height="3" fill="white" />
+  
+  <rect x="2" y="28" width="24" height="3" fill="white" />
+</svg>
+
+
     </button>
 
     {/* Logo */}
@@ -43,7 +40,7 @@ const Navbar = () => {
         {navbarlinks.map((link) => (
           <li key={link.id}>
             <a
-              className="text-white sm:text-lg text-sm hover:text-iurdLightBlue transform hover:scale-110 inline-block duration-300"
+              className="text-white sm:text-lg text-sm hover:text-[##66B2FF] focus-text-#66B2FF transform hover:scale-110 inline-block duration-300"
               href={link.link}
             >
               {link.title}
@@ -58,7 +55,7 @@ const Navbar = () => {
   {isOpen && (
     <div className="md:hidden bg-[#000000] p-4 hover:bg-[#1b5d82] transition duration-300">
       <div className="flex justify-end">
-        <button onClick={toggleMenu} className="bg-iurdRed text-white text-2xl hover:bg-iurdLightBlue hover:text-iurdWhite px-2 rounded">
+        <button onClick={toggleMenu} className="bg-[#544d4d] text-white hover:text-[#C4483E] text-2xl hover:bg-[#0079F1] hover:text-[#ffffff] px-2 rounded">
           ✕
         </button>
       </div>
@@ -66,7 +63,7 @@ const Navbar = () => {
         {navbarlinks.map((link) => (
           <li key={link.id}>
             <a
-              className="text-white text-lg hover:text-iurdLightBlue duration-300"
+              className="text-white text-lg hover:text-[#0079F1] duration-300"
               href={link.link}
             >
               {link.title}

@@ -2,10 +2,10 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div>
-     <h2>Iglesia Universal Burzaco</h2>
+    <div className='block '>
+     <h2 className='flex justify-center items-center p-7 text-lg text-[#000] '>Iglesia Universal Burzaco</h2>
     
-     <video width={320} height={340} controls="controls" poster='/img/flyer_viernes.jpg' >
+     <video  width={320} height={340} controls="controls" poster='/img/flyer_viernes.jpg' className='flex justify-center items-center p-5 ' >
       <source src='/img/viernes.mp4'></source>
       EL NAVEGADOR NO SOPORTA LA ETIQUETA VIDEO
      </video>

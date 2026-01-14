@@ -23,11 +23,10 @@ function App() {
           </svg>
         </div>
       </a>
-      <div className="p-6 space-y-4">
-        <h1 className="text-blue-500">Hola Tailwind v4</h1>
-
-      </div>
-      <Navbar />
+       <Navbar />
+       {/* <div className="flex justify-center items-center h-50 bg-amber-300">
+      <img src="https://lh3.googleusercontent.com/p/AF1QipPaUJeVt9fUnpzZOTuMdiooMduMJZIIjLP_csG5=s680-w680-h510-rw"/>
+      </div> */}
       <Versiculo />
       <Hero/>
        <AgendaSemanal />
