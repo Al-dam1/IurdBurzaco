@@ -23,7 +23,7 @@ const Footer = () => {
     <div className=" md:block bg-gray-600 p-6 text-center text-white font-extralight ">
        
        <h3 className='flex justify-center items-center p-3'>Medios de Comunicacion</h3>
-      <ul className="flex justify-center gap-x-2 space-x-4" >
+    <ul className="flex justify-center items-center gap-6">
         <li> <a href='https://www.unifetv.com/'>unifetv</a>
         </li>
         <li>
@@ -32,15 +32,7 @@ const Footer = () => {
        <h3 className='flex justify-center items-center'>Seguinos en nuestras redes</h3>
        <ul className="flex space-x-4">
     {navbarRedes.map((link) => (
-      <li  key={link.id}>
-        <a 
-        target='_blank'
-        rel='noopener noreferrer'
-        className='inline-block transition duration-300 transform hover:scale-125'
-         href={link.link}>
-          <i className={link.icono} sm:text-2xl text-lg text-white hover:text-sky-200 transition-all></i>
-        </a>
-      </li>
+   <li key={link.id} className="flex justify-center items-center"> <a target="_blank" rel="noopener noreferrer" href={link.link} className="flex justify-center items-center transition duration-300 transform hover:scale-125" > <i className={`${link.icono} text-2xl text-white hover:text-sky-200 transition-all`} ></i> </a> </li>
     ))}
   </ul> 
   <p className='flex justify-center items-center text-2xl'><small>derechos reservados &copy;</small></p>
