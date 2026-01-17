@@ -24,9 +24,9 @@ function App() {
         </div>
       </a>
        <Navbar />
-       {/* <div className="flex justify-center items-center h-50 bg-amber-300">
-      <img src="https://lh3.googleusercontent.com/p/AF1QipPaUJeVt9fUnpzZOTuMdiooMduMJZIIjLP_csG5=s680-w680-h510-rw"/>
-      </div> */}
+        <div className="w-full h-[500px] md:h-[700px] overflow-hidden">
+      <img src="img/imagen_iglesia.jpg" className="w-full h-full object-cover"/>
+      </div> 
       <Versiculo />
       <Hero/>
        <AgendaSemanal />

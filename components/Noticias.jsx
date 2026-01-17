@@ -22,10 +22,10 @@ const Noticias = () => {
           </p>
         </div>
         <div className="bg-[#ffffff] shadow-md  rounded p-4 ">
-          <h3 className="text-xl font-bold text-[#000000]">testimonio de laura </h3>
-          <img src="img/moysesevento.jpg" className="w-62 h-62 object-cover my-2 mx-auto rounded-lg" />
+          <h3 className="text-xl font-bold text-[#000000]">testimonio de vanesa </h3>
+          <img src="img/vanesa.jpg" className="w-62 h-62 object-cover my-2 mx-auto rounded-lg" />
           <p className="text-sm text-[#333333]">
-            "Gracias a la oracion, mi familia encontro paz y unidad..."
+            "Estaba con depresion ,estaba mal en el ambito amoroso y queria morir,recibi una carta Help y vine a la iglesia , persevere y hoy soy feliz "
           </p>
         </div>
         <div className="bg-[#ffffff] shadow-md  rounded p-4 ">
