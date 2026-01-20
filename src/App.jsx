@@ -6,7 +6,10 @@ import Fju from "../components/Fju"
 import Versiculo from "../components/Versiculo";
 import Footer from "../components/Footer";
 import Hero from "../hero/Hero";
+<<<<<<< HEAD
 import Testimonio from "../components/Testimonio";
+=======
+>>>>>>> f7b55867cb62996fbf22a8c4240058b5b088807a
 
 
 
@@ -31,7 +34,10 @@ function App() {
       <Versiculo />
       <Hero/>
        <AgendaSemanal />
+<<<<<<< HEAD
        <Testimonio/>
+=======
+>>>>>>> f7b55867cb62996fbf22a8c4240058b5b088807a
       <Contacto />
       <Noticias />
       <Fju />
