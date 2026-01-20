@@ -7,7 +7,6 @@ import Versiculo from "../components/Versiculo";
 import Footer from "../components/Footer";
 import Hero from "../hero/Hero";
 import Testimonio from "../components/Testimonio";
-import Testimonio from "../components/Testimonio";
 
 
 function App() {
@@ -34,9 +33,7 @@ function App() {
       <Noticias />
        <Testimonio/>
       <Contacto />
-       <Testimonio/>
       <Contacto />
-      <Noticias />
       <Fju />
       <Footer />
     </>
